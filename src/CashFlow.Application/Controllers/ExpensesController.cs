@@ -1,6 +1,8 @@
 using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
+using CashFlow.Exception.ExceptionsBase;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.Application.Controllers
@@ -19,15 +21,15 @@ namespace CashFlow.Application.Controllers
         var response = useCase.Execute(request);
         return Created(string.Empty, response);
       }
-      catch (ArgumentException ex)
+      catch (ErrorOnValidationException ex)
       {
-        var errorResponse = new ResponseErrorJson(ex.Message);
+        var errorResponse = new ResponseErrorJson(ex.Errors);
         return BadRequest(errorResponse);
       }
       catch
       {
         var errorResponse = new ResponseErrorJson("An unexpected error occurred.");
-        return StatusCode(500, errorResponse);
+        return StatusCode(StatusCodes.Status500InternalServerError, errorResponse);
       }
     }
   }

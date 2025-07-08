@@ -1,0 +1,66 @@
+# Build results
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# IIS Express
+.vs/
+*.vspscc
+*.vssscc
+
+# DotCover
+*.dotCover
+
+# Logs
+*.log
+
+# Nunit
+TestResult.xml
+TestResults/
+
+# Publish
+publish/
+out/
+
+# Mac OS
+.DS_Store
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# User secrets
+secrets.json
+
+# Dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Paket
+.paket/
+paket-files/
+
+# StyleCop
+StyleCopReport.xml
+
+# Coverage
+coverage/

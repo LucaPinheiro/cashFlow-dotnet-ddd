@@ -9,3 +9,4 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/refint/CashFlow.Exception.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/CashFlow.Exception.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/ref/CashFlow.Exception.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/CashFlow.Exception.sourcelink.json

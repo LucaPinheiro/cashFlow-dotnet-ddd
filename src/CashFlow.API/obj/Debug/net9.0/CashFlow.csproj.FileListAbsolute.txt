@@ -52,3 +52,4 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/FluentValidation.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.sourcelink.json
