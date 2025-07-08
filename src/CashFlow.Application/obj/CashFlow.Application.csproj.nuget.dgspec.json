@@ -222,7 +222,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

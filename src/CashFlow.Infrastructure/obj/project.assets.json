@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "CashFlow.Communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CashFlow.Communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CashFlow.Communication.dll": {}
+        }
+      },
       "CashFlow.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -15,6 +25,9 @@
       "CashFlow.Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CashFlow.Communication": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Exception.dll": {}
         },
@@ -25,6 +38,11 @@
     }
   },
   "libraries": {
+    "CashFlow.Communication/1.0.0": {
+      "type": "project",
+      "path": "../CashFlow.Communication/CashFlow.Communication.csproj",
+      "msbuildProject": "../CashFlow.Communication/CashFlow.Communication.csproj"
+    },
     "CashFlow.Domain/1.0.0": {
       "type": "project",
       "path": "../CashFlow.Domain/CashFlow.Domain.csproj",

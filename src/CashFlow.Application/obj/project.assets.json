@@ -2709,6 +2709,9 @@
       "CashFlow.Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "CashFlow.Communication": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Exception.dll": {}
         },
