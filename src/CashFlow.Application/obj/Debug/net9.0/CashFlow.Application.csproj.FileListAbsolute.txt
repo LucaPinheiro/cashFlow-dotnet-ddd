@@ -1,8 +1,3 @@
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.csproj.AssemblyReference.cache
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.AssemblyInfoInputs.cache
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.AssemblyInfo.cs
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.csproj.CoreCompileInputs.cache
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/bin/Debug/net9.0/CashFlow.Application.deps.json
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/bin/Debug/net9.0/CashFlow.Application.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/bin/Debug/net9.0/CashFlow.Application.pdb
@@ -12,9 +7,14 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/bin/Debug/net9.0/CashFlow.Domain.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/bin/Debug/net9.0/CashFlow.Communication.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/bin/Debug/net9.0/CashFlow.Exception.pdb
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.csproj.AssemblyReference.cache
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.AssemblyInfoInputs.cache
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.AssemblyInfo.cs
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.csproj.CoreCompileInputs.cache
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.sourcelink.json
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.7372E909.Up2Date
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/refint/CashFlow.Application.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/ref/CashFlow.Application.dll
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.sourcelink.json

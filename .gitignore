@@ -64,3 +64,5 @@ StyleCopReport.xml
 
 # Coverage
 coverage/
+
+.fake

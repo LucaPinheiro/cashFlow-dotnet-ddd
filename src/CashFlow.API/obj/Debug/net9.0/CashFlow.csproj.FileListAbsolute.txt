@@ -6,6 +6,7 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/CashFlow.runtimeconfig.json
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/CashFlow.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/CashFlow.pdb
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/FluentValidation.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
@@ -18,6 +19,9 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Newtonsoft.Json.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Newtonsoft.Json.Bson.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/CashFlow.Application.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/CashFlow.Communication.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/CashFlow.Domain.dll
@@ -34,6 +38,7 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.csproj.CoreCompileInputs.cache
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.MvcApplicationPartsAssemblyInfo.cs
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.MvcApplicationPartsAssemblyInfo.cache
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.sourcelink.json
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/rjimswa.dswa.cache.json
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
@@ -48,8 +53,3 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.genruntimeconfig.cache
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/ref/CashFlow.dll
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/FluentValidation.dll
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.sourcelink.json

@@ -5,8 +5,8 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/CashFlow.Communication.AssemblyInfoInputs.cache
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/CashFlow.Communication.AssemblyInfo.cs
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/CashFlow.Communication.csproj.CoreCompileInputs.cache
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/CashFlow.Communication.sourcelink.json
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/CashFlow.Communication.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/refint/CashFlow.Communication.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/CashFlow.Communication.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/ref/CashFlow.Communication.dll
-/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Communication/obj/Debug/net9.0/CashFlow.Communication.sourcelink.json
