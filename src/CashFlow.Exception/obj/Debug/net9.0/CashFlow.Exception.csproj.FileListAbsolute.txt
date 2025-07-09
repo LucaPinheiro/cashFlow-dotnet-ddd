@@ -12,3 +12,7 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/refint/CashFlow.Exception.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/CashFlow.Exception.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/ref/CashFlow.Exception.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/bin/Debug/net9.0/CashFlow.Communication.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/bin/Debug/net9.0/CashFlow.Communication.pdb
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/CashFlow.Exception.csproj.AssemblyReference.cache
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/obj/Debug/net9.0/CashFlow.AC646FCD.Up2Date
