@@ -2161,6 +2161,7 @@
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
+          "CashFlow.Infrastructure": "1.0.0",
           "FluentValidation": "12.0.0",
           "Microsoft.AspNetCore.Mvc": "2.3.0"
         },

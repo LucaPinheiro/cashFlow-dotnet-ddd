@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mSVxGT/V1mY=",
+  "dgSpecHash": "MUtwqzHXB6o=",
   "success": true,
-  "projectFilePath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Api/CashFlow.csproj",
+  "projectFilePath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/CashFlow.csproj",
   "expectedPackageFiles": [
     "/Users/luca/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

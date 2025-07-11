@@ -18,3 +18,5 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/refint/CashFlow.Application.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/CashFlow.Application.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/obj/Debug/net9.0/ref/CashFlow.Application.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/bin/Debug/net9.0/CashFlow.Infrastructure.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Application/bin/Debug/net9.0/CashFlow.Infrastructure.pdb

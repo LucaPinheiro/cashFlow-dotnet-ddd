@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Api/CashFlow.csproj": {}
+    "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/CashFlow.csproj": {}
   },
   "projects": {
-    "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Api/CashFlow.csproj": {
+    "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/CashFlow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Api/CashFlow.csproj",
+        "projectUniqueName": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/CashFlow.csproj",
         "projectName": "CashFlow",
-        "projectPath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Api/CashFlow.csproj",
+        "projectPath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/CashFlow.csproj",
         "packagesPath": "/Users/luca/.nuget/packages/",
-        "outputPath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Api/obj/",
+        "outputPath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/luca/.nuget/NuGet/NuGet.Config"
@@ -125,6 +125,9 @@
               },
               "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/CashFlow.Exception.csproj": {
                 "projectPath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              },
+              "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+                "projectPath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
               }
             }
           }
