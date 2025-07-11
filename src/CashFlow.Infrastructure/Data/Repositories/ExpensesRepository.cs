@@ -16,7 +16,6 @@ namespace CashFlow.Infrastructure.Data.Repositories
         public void Add(Expense expense)
         {
             _dbContext.Expenses.Add(expense);
-            _dbContext.SaveChanges(); 
         }
 
         public async Task AddAsync(Expense expense)
