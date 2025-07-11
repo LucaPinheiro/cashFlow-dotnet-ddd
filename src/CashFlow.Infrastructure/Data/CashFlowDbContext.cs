@@ -5,8 +5,7 @@ namespace CashFlow.Infrastructure.Data
 {
     public class CashFlowDbContext : DbContext
     {
-        public CashFlowDbContext(DbContextOptions<CashFlowDbContext> options)
-            : base(options) { }
+        public CashFlowDbContext(DbContextOptions<CashFlowDbContext> options) : base(options) { }
 
         public DbSet<Expense> Expenses { get; set; } = null!;
 

@@ -17,19 +17,8 @@ builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)))
 // ====================
 // Injeção de Dependências da Solução
 // ====================
-builder.Services.AddInfrastructure();
+builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
-
-// ====================
-// Infraestrutura (DbContext, etc.)
-// ====================
-builder.Services.AddDbContext<CashFlowDbContext>(options =>
-    options.UseMySql(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
-    )
-);
-
 
 // ====================
 // Pipeline da Aplicação
