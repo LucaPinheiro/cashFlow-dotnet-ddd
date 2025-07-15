@@ -149,3 +149,8 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/obj/Debug/net9.0/CashFlow.pdb
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Api/obj/Debug/net9.0/CashFlow.genruntimeconfig.cache
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Api/obj/Debug/net9.0/ref/CashFlow.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/AutoMapper.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll

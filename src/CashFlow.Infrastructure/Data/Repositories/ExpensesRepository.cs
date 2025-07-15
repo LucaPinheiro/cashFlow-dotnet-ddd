@@ -14,16 +14,11 @@ namespace CashFlow.Infrastructure.Data.Repositories
         }
 
         public async Task Add(Expense expense)
+
         {
             await _dbContext.Expenses.AddAsync(expense);
         }
-
-        public async Task AddAsync(Expense expense)
-        {
-            await _dbContext.Expenses.AddAsync(expense);
-            await _dbContext.SaveChangesAsync();
-        }
-
+        
         public async Task<List<Expense>> GetAll()
         {
             return await _dbContext.Expenses.AsNoTracking().ToListAsync();
