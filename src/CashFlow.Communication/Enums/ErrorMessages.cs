@@ -11,4 +11,11 @@ public static class ErrorMessages
   public const string PAYMENT_TYPE_INVALID = "Payment type is invalid.";
   public const string EXPENSE_NOT_FOUND = "Expense not found.";
 
+  public const string NAME_EMPTY = "Name cannot be empty.";
+  public const string NAME_TOO_LONG = "Name cannot exceed 100 characters.";
+  public const string EMAIL_EMPTY = "Email cannot be empty.";
+  public const string EMAIL_INVALID = "Email is not valid.";
+  public const string EMAIL_TOO_LONG = "Email is too long.";
+  public const string INVALID_PASSWORD = "Password is invalid. It must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one digit, and one special character.";
+
 }
