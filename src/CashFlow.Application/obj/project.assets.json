@@ -2893,6 +2893,9 @@
       "CashFlow.Communication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.3"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Communication.dll": {}
         },
@@ -2917,6 +2920,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
           "CashFlow.Communication": "1.0.0"
         },
         "compile": {
@@ -8215,6 +8219,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "AutoMapper >= 15.0.1",
+      "BCrypt.Net-Next >= 4.0.3",
       "CashFlow.Communication >= 1.0.0",
       "CashFlow.Domain >= 1.0.0",
       "CashFlow.Exception >= 1.0.0",
@@ -8282,6 +8287,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[15.0.1, )"
+          },
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.3, )"
           },
           "FluentValidation": {
             "target": "Package",

@@ -281,6 +281,9 @@
       "CashFlow.Communication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.3"
+        },
         "compile": {
           "bin/placeholder/CashFlow.Communication.dll": {}
         },
@@ -305,6 +308,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
           "CashFlow.Communication": "1.0.0"
         },
         "compile": {

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+WemRuWEMjc=",
+  "dgSpecHash": "QQ0ocHscQqc=",
   "success": true,
   "projectFilePath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Exception/CashFlow.Exception.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/luca/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

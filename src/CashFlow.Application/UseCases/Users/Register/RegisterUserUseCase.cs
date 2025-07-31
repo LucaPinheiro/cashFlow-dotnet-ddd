@@ -1,8 +1,9 @@
 using AutoMapper;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
-using CashFlow.Domain.Security;
+using CashFlow.Infrastructure.Security;
 using CashFlow.Exception.ExceptionsBase;
+using CashFlow.Infrastructure.Security;
 
 namespace CashFlow.Application.UseCases.Users;
 
