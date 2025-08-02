@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "CashFlow/1.0.0": {
         "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
           "CashFlow.Application": "1.0.0",
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Exception": "1.0.0",
@@ -30,6 +31,14 @@
           "lib/net9.0/AutoMapper.dll": {
             "assemblyVersion": "15.0.0.0",
             "fileVersion": "15.0.1.0"
+          }
+        }
+      },
+      "BCrypt.Net-Next/4.0.3": {
+        "runtime": {
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
           }
         }
       },
@@ -1136,6 +1145,7 @@
       "CashFlow.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "15.0.1",
+          "BCrypt.Net-Next": "4.0.3",
           "CashFlow.Communication": "1.0.0",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
@@ -1151,6 +1161,9 @@
         }
       },
       "CashFlow.Communication/1.0.0": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.3"
+        },
         "runtime": {
           "CashFlow.Communication.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1159,6 +1172,9 @@
         }
       },
       "CashFlow.Domain/1.0.0": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.3"
+        },
         "runtime": {
           "CashFlow.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1168,6 +1184,7 @@
       },
       "CashFlow.Exception/1.0.0": {
         "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
           "CashFlow.Communication": "1.0.0"
         },
         "runtime": {
@@ -1179,6 +1196,7 @@
       },
       "CashFlow.Infrastructure/1.0.0": {
         "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
           "CashFlow.Domain": "1.0.0",
           "CashFlow.Exception": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.7",
@@ -1206,6 +1224,13 @@
       "sha512": "sha512-kNo7iIAi4p4XxoEbfif2WUQtc6RTx+UteiRYPqCOKj+4q4+YaWono06qTxoHBy+0N1HdganA//k5p/VmWw2AMA==",
       "path": "automapper/15.0.1",
       "hashPath": "automapper.15.0.1.nupkg.sha512"
+    },
+    "BCrypt.Net-Next/4.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "path": "bcrypt.net-next/4.0.3",
+      "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
     "FluentValidation/12.0.0": {
       "type": "package",

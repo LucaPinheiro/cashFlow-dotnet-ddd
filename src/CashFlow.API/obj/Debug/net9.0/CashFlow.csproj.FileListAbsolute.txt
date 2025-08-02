@@ -154,3 +154,4 @@
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
 /Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/bin/Debug/net9.0/BCrypt.Net-Next.dll
