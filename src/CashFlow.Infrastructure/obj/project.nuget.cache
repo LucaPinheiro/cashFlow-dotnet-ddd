@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DqBJsVMbg9o=",
+  "dgSpecHash": "vgobvXSfyFc=",
   "success": true,
   "projectFilePath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -11,15 +11,21 @@
     "/Users/luca/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.0/microsoft.entityframeworkcore.relational.9.0.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.0/microsoft.extensions.caching.abstractions.9.0.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.extensions.caching.memory/9.0.0/microsoft.extensions.caching.memory.9.0.0.nupkg.sha512",
-    "/Users/luca/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.0-preview.6.25358.103/microsoft.extensions.configuration.abstractions.10.0.0-preview.6.25358.103.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.extensions.configuration.binder/10.0.0-preview.6.25358.103/microsoft.extensions.configuration.binder.10.0.0-preview.6.25358.103.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg.sha512",
-    "/Users/luca/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.extensions.primitives/10.0.0-preview.6.25358.103/microsoft.extensions.primitives.10.0.0-preview.6.25358.103.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.identitymodel.abstractions/8.13.0/microsoft.identitymodel.abstractions.8.13.0.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.13.0/microsoft.identitymodel.jsonwebtokens.8.13.0.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.identitymodel.logging/8.13.0/microsoft.identitymodel.logging.8.13.0.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.identitymodel.tokens/8.13.0/microsoft.identitymodel.tokens.8.13.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/mysqlconnector/2.4.0/mysqlconnector.2.4.0.nupkg.sha512",
-    "/Users/luca/.nuget/packages/pomelo.entityframeworkcore.mysql/9.0.0-preview.3.efcore.9.0.0/pomelo.entityframeworkcore.mysql.9.0.0-preview.3.efcore.9.0.0.nupkg.sha512"
+    "/Users/luca/.nuget/packages/pomelo.entityframeworkcore.mysql/9.0.0-preview.3.efcore.9.0.0/pomelo.entityframeworkcore.mysql.9.0.0-preview.3.efcore.9.0.0.nupkg.sha512",
+    "/Users/luca/.nuget/packages/system.identitymodel.tokens.jwt/8.13.0/system.identitymodel.tokens.jwt.8.13.0.nupkg.sha512"
   ],
   "logs": []
 }
