@@ -12,7 +12,9 @@ public class RegisterUserValidator : AbstractValidator<RequestRegisterUserJson>
             .MaximumLength(100).WithMessage(ErrorMessages.NAME_TOO_LONG);
 
         RuleFor(user => user.Email).NotEmpty().WithMessage(ErrorMessages.EMAIL_EMPTY)
-            .EmailAddress().WithMessage(ErrorMessages.EMAIL_INVALID)
+            .EmailAddress()
+            .When(user => string.IsNullOrEmpty(user.Email) ==  false, ApplyConditionTo.CurrentValidator)
+            .WithMessage(ErrorMessages.EMAIL_INVALID)
             .MaximumLength(100).WithMessage(ErrorMessages.EMAIL_TOO_LONG);
 
         RuleFor(user => user.Password).SetValidator(new PasswordValidator<RequestRegisterUserJson>());

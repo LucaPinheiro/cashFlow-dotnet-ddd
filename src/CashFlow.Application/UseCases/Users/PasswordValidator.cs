@@ -13,24 +13,30 @@ public class PasswordValidator<T> : PropertyValidator<T, string>
 
     protected override string GetDefaultMessageTemplate(string errorCode)
     {
-        return $"{{{{ERROR_MESSAGE_KEY}}}}";
+        return "{ERROR_MESSAGE_KEY}";
     }
 
     public override bool IsValid(ValidationContext<T> context, string password)
     {
-        if (string.IsNullOrWhiteSpace(password))
+        if (string.IsNullOrWhiteSpace(password) || password.Length < 8 || password.Length > 100)
         {
             context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ErrorMessages.INVALID_PASSWORD);
             return false;
         }
 
-        if (password.Length < 8 || password.Length > 100)
+        if (!Regex.IsMatch(password, @"[A-Z]")) // precisa de ao menos uma maiúscula
         {
             context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ErrorMessages.INVALID_PASSWORD);
             return false;
         }
 
-        if (Regex.IsMatch(password, @"[A-Z]+"))
+        if (!Regex.IsMatch(password, @"[a-z]")) // precisa de ao menos uma minúscula
+        {
+            context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ErrorMessages.INVALID_PASSWORD);
+            return false;
+        }
+
+        if (!Regex.IsMatch(password, @"\d")) // precisa de ao menos um número
         {
             context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ErrorMessages.INVALID_PASSWORD);
             return false;
@@ -38,5 +44,4 @@ public class PasswordValidator<T> : PropertyValidator<T, string>
 
         return true;
     }
-
 }
