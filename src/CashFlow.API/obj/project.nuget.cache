@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SdUPlPk7A3Q=",
+  "dgSpecHash": "CjRTycSKN6w=",
   "success": true,
   "projectFilePath": "/Users/luca/Documents/development/rocketseat/dotnet/dotnet-ddd-api/src/CashFlow.API/CashFlow.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/Users/luca/.nuget/packages/microsoft.aspnetcore.antiforgery/2.3.0/microsoft.aspnetcore.antiforgery.2.3.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.3.0/microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.aspnetcore.authentication.core/2.3.0/microsoft.aspnetcore.authentication.core.2.3.0.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.5/microsoft.aspnetcore.authentication.jwtbearer.9.0.5.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.aspnetcore.authorization/2.3.0/microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.aspnetcore.authorization.policy/2.3.0/microsoft.aspnetcore.authorization.policy.2.3.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.aspnetcore.cors/2.3.0/microsoft.aspnetcore.cors.2.3.0.nupkg.sha512",
@@ -89,6 +90,8 @@
     "/Users/luca/.nuget/packages/microsoft.identitymodel.abstractions/8.13.0/microsoft.identitymodel.abstractions.8.13.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.13.0/microsoft.identitymodel.jsonwebtokens.8.13.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.identitymodel.logging/8.13.0/microsoft.identitymodel.logging.8.13.0.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "/Users/luca/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.identitymodel.tokens/8.13.0/microsoft.identitymodel.tokens.8.13.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.net.http.headers/2.3.0/microsoft.net.http.headers.2.3.0.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
