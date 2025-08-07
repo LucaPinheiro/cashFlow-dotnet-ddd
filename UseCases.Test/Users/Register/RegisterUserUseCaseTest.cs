@@ -31,10 +31,11 @@ public class RegisterUserUseCaseTest
         var mapper = MapperBuilder.Build();
         var unitOfWork = UnitOfWorkBuilder.Build();
         var writeRepository = UserWriteOnlyRepositoryBuilder.Build();
-        var passwordEncripter = PasswordEncripterBuilder.Build();
+        var passwordEncrypter = PasswordEncripterBuilder.Build();
         var tokenGenerator = JwtTokenGeneratorBuilder.Build();
+        var readRepository = new UserReadOnlyRepositorybuilder().Build();
 
-        return new RegisterUserUseCase(mapper, passwordEncripter, null,
+        return new RegisterUserUseCase(mapper, passwordEncrypter, readRepository,
             writeRepository, tokenGenerator, unitOfWork);
     }
 }
