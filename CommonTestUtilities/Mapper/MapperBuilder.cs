@@ -4,17 +4,18 @@ using Microsoft.Extensions.Logging;
 
 namespace CommonTestUtilities.Mapper;
 
-public class MapperBuilder
+public static class MapperBuilder
 {
+    private static readonly ILoggerFactory _loggerFactory =
+        LoggerFactory.Create(_ => { });
+
     public static IMapper Build()
     {
-        var loggerFactory = LoggerFactory.Create(builder => { });
+        var config = new MapperConfiguration(cfg =>
+        {
+            cfg.AddProfile(new AutoMapping());
+        }, _loggerFactory);
 
-        var mapper = new MapperConfiguration(
-            config => config.AddProfile(new AutoMapping()),
-            loggerFactory
-        );
-
-        return mapper.CreateMapper();
+        return config.CreateMapper();
     }
 }

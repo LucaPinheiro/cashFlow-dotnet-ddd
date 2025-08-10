@@ -1,4 +1,5 @@
 using CashFlow.Application.UseCases.Users;
+using CashFlow.Exception.ExceptionsBase;
 using CommonTestUtilities.Cryptography;
 using CommonTestUtilities.Mapper;
 using CommonTestUtilities.Repositories;
@@ -11,7 +12,7 @@ namespace UseCases.Test.Users.Register;
 public class RegisterUserUseCaseTest
 {
     [Fact]
-    public async void success()
+    public async Task success()
     {
         // Arrange
         var request = RequestRegisterUserJsonBuilder.Build();
@@ -24,6 +25,21 @@ public class RegisterUserUseCaseTest
         result.Should().NotBeNull();
         result.Name.Should().Be(request.Name);
         result.Token.Should().NotBeNullOrEmpty();
+    }
+
+    [Fact]
+    public async Task Error_Name_Empty()
+    {
+        var request = RequestRegisterUserJsonBuilder.Build();
+        request.Name = string.Empty;
+
+        var useCase = CreateUseCase();
+
+        var act = async () => await useCase.Execute(request);
+
+        var result = await act.Should().ThrowAsync<ErrorOnValidationException>();
+
+        result.Where(ex => ex.GetErrors().Count == 1);
     }
 
     private RegisterUserUseCase CreateUseCase()
