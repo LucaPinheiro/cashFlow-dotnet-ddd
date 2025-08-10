@@ -5,12 +5,27 @@ namespace CommonTestUtilities.Cryptography;
 
 public class PasswordEncripterBuilder
 {
-    public static IPasswordEncripter Build()
+    private readonly Mock<IPasswordEncripter> _mock;
+
+    public PasswordEncripterBuilder()
     {
-        var mock = new Mock<IPasswordEncripter>();
+        _mock = new Mock<IPasswordEncripter>();
 
-        mock.Setup(passwordEncripter => passwordEncripter.Encrypt(It.IsAny<string>())).Returns("!%dS1234");
-
-        return mock.Object;
+        _mock.Setup(p => p.Encrypt(It.IsAny<string>()))
+            .Returns("!%dlfJk545");
     }
+
+    public PasswordEncripterBuilder Verify(string? password)
+    {
+
+        if (string.IsNullOrWhiteSpace(password) == false)
+        {
+            _mock.Setup(p => p.Verify(password, It.IsAny<string>()))
+                .Returns(true);
+        }
+
+        return this;
+    }
+
+    public IPasswordEncripter Build() => _mock.Object;
 }
