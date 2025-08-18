@@ -1,5 +1,6 @@
 using System.Net;
 using System.Net.Http.Json;
+using System.Text.Json;
 using CommonTestUtilities.Requests;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
@@ -24,5 +25,13 @@ public class RegisterUserTest : IClassFixture<CustomWebApplicationFactory>
         var response = await _httpClient.PostAsJsonAsync(requestUri: METHOD, value: request);
 
         response.StatusCode.Should().Be(HttpStatusCode.Created);
+
+        var body = await response.Content.ReadAsStreamAsync();
+
+        var responseBody = await JsonDocument.ParseAsync(body);
+
+        responseBody.RootElement.GetProperty("name").GetString().Should().Be(request.Name);
+        responseBody.RootElement.GetProperty("token").GetString().Should().NotBeNullOrEmpty();
+
     }
 }
