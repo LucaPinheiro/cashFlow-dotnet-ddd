@@ -34,4 +34,19 @@ public class RegisterUserTest : IClassFixture<CustomWebApplicationFactory>
         responseBody.RootElement.GetProperty("token").GetString().Should().NotBeNullOrEmpty();
 
     }
+
+    [Fact]
+    public async Task Error_Empty_Name()
+    {
+        var request = RequestRegisterUserJsonBuilder.Build();
+        request.Name = string.Empty;
+
+        var result = await _httpClient.PostAsJsonAsync(requestUri: METHOD, value: request);
+        
+        result.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+        
+        var body = await result.Content.ReadAsStreamAsync();
+
+        var responseBody = await JsonDocument.ParseAsync(body);
+    }
 }
