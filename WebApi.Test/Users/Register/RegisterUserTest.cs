@@ -1,6 +1,7 @@
 using System.Net;
 using System.Net.Http.Json;
 using System.Text.Json;
+using CashFlow.Communication.Enums;
 using CommonTestUtilities.Requests;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
@@ -48,5 +49,9 @@ public class RegisterUserTest : IClassFixture<CustomWebApplicationFactory>
         var body = await result.Content.ReadAsStreamAsync();
 
         var responseBody = await JsonDocument.ParseAsync(body);
+
+        var errors = responseBody.RootElement.GetProperty("errorMessages").EnumerateArray();
+
+        errors.Should().HaveCount(1).And.Contain(error => error.GetString()!.Equals(ErrorMessages.NAME_EMPTY));
     }
 }
